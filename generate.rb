@@ -10,6 +10,7 @@ if ARGV.size == 0
 Usage:
   #{$0} bib out=all.bib                           # Generates bibtex
   #{$0} html author='Percy Liang' out=pliang.html # Generates Percy's publications page
+  #{$0} html author='Sida I. Wang' out=refdbpubs.html
 EOF
   exit 1
 end
@@ -20,7 +21,7 @@ outPath = '/dev/stdout'
 entries = $entries
 title = 'References'
 byYear = true
-listOnly = false
+listOnly = true
 style = 'main.css'
 ARGV.each { |arg|
   if arg =~ /^author=(.+)$/

@@ -9,6 +9,120 @@
 # And other metadata which goes into the HTML output, not the bib:
 #   project('...')
 
+
+entry!('wang2015polynomial',
+  nips(2015),
+  title('Estimating Mixture Models via Mixture of Polynomials'),
+  author('Sida I. Wang and Arun Chaganty and Percy Liang'),
+  url('polynomial-nips2015.pdf'),
+  codalab('0xca42b883b1f9481989cfb02fe693649f'),
+  posterurl('polymom-poster.pdf'),
+  nil)
+
+entry!('frostig2014subconstant',
+  author('Roy Frostig and Sida I. Wang'),
+  title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
+  arxiv(2014, '1408.2270'),
+  url('http://arxiv.org/abs/1408.2270'),
+nil)
+
+entry!('wager2014altitude',
+  title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
+  author('Stefan Wager and Will Fithian and Sida I. Wang and Percy Liang'),
+  nips(2014),
+  url('http://arxiv.org/pdf/1407.3289.pdf'),
+nil)
+
+entry!('frostig2014lowrank',
+  title('Simple {MAP} inference via low-rank relaxations'),
+  author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
+  nips(2014),
+  url('frostig2014lowrank.pdf'),
+  codalab('0x106abb3b47be492aa7387f528c943faa'),
+nil)
+
+entry!('wang2014iqp',
+  author('Sida I. Wang and Roy Frostig and Percy Liang and Chris Manning'),
+  title('Relaxations for inference in restricted {B}oltzmann machines'),
+  iclrWorkshop(2014),
+  slidesurl('rrr_iclr2014.pdf'),
+  talkurl('http://www.youtube.com/watch?v=v1F1-izecl8'),
+  url('http://arxiv.org/abs/1312.6205'),
+nil)
+
+entry!('green14humaneffort',
+  emnlp(2014),
+  title('Human Effort and Machine Learnability in Computer Aided Translation'),
+  author('Spence Green and Sida I. Wang and Jason Chuang and Jeffrey Heer and and Christopher D. Manning'),
+  url('green14humaneffort.pdf'),
+nil)
+
+entry!('wang2013fast',
+  icml(2013),
+  title('Fast dropout training'),
+  author('Sida I. Wang and Christopher Manning'),
+  pages(118, 126),
+  url('http://jmlr.csail.mit.edu/proceedings/papers/v28/wang13a.pdf'),
+  slidesurl('fastdropout-talk.pdf'),
+  code('https://github.com/sidaw/fastdropout'),
+  talkurl('http://techtalks.tv/talks/fast-deterministic-dropout-training/57874/'),
+nil)
+
+entry!('wang2013noising',
+  author('Sida I. Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
+  title('Feature Noising for Log-linear Structured Prediction'),
+  emnlp(2013),
+  url('noising-emnlp2013.pdf'),
+  slidesurl('wang2013noising-talk.pdf'),
+nil)
+
+entry!('wager2013dropout',
+  author('Stefan Wager and Sida I. Wang and Percy Liang'),
+  title('Dropout Training as Adaptive Regularization'),
+  nips(2013),
+  url('http://arxiv.org/pdf/1307.1493.pdf'),
+  posterurl('dropout-nips2013-poster.pdf'),
+  code('https://github.com/sidaw/fastdropout'),
+  slidesurl('baylearn-talk.pdf'),
+nil)
+
+entry!('green2013feature',
+  author('Spence Green and Sida I. Wang and Dan Cer and Christopher D. Manning'),
+  title('Fast and Adaptive Online Training of Feature-Rich Translation Models'),
+  acl(2013),
+  url('green2013feature.pdf'),
+  nil)
+
+entry!('green2013wmt',
+  author('Spence Green and Daniel Cer and Kevin Reschke and Rob Voigt and John Bauer and Sida I. Wang and Natalia Silveira and  Julia Neidert and Christopher D. Manning'),
+  title('Feature-Rich Phrase-based Translation: {S}tanford {U}niversity’s Submission to the {WMT} 2013 Translation Task'),
+  inproceedings('ACL 2013 Eighth Workshop on Statistical Machine Translation', 2013),
+  url('green13wmt.pdf'),
+  nil)
+
+entry!('wang2012simple',
+  author('Sida I. Wang and Chris Manning'),
+  title('Baselines and Bigrams: Simple, Good Sentiment and Text Classification'),
+  acl(2012),
+  url('wang2012simple.pdf'),
+  code('https://github.com/sidaw/nbsvm'),
+  nil)
+
+entry!('hinton2011transforming',
+  author('Geoffrey E. Hinton and Alex Krizhevsky and Sida I. Wang'),
+  title('Object Recognition using Capsules'),
+  icann(2011),
+  url('hinton2011transforming.pdf'),
+  nil)
+
+entry!('wang2011trans',
+  author('Sida I. Wang'),
+  title('Learning to Extract Parameterized Features by Predicting Transformed Images'),
+  url('wang2011trans-thesis.pdf'),
+  mastersthesis('University of Toronto', 2011),
+nil)
+
+
 entry!('ferguson73dp',
   author('T. S. Ferguson'),
   title('A {B}ayesian Analysis of Some Nonparametric Problems'),
@@ -335,7 +449,7 @@ nil)
 
 entry!('wang2014qa',
   author('Zhenghao Wang and Shengquan Yan and Huaming Wang and Xuedong Huang'),
-  title('An Overview of Microsoft Deep {QA} System on Stanford WebQuestions Benchmark'),
+  title('An Overview of Microsoft Deep {QA} System on {S}tanford WebQuestions Benchmark'),
   techreport('Microsoft Research', 2014),
 nil)
 
@@ -3647,22 +3761,7 @@ entry!('berant2013freebase',
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
-nil)
-
-entry!('wang2013noising',
-  author('Sida I. Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
-  title('Feature Noising for Log-linear Structured Prediction'),
-  emnlp(2013),
-  url('noising-emnlp2013.pdf'),
-nil)
-
-entry!('wager2013dropout',
-  author('Stefan Wager and Sida I. Wang and Percy Liang'),
-  title('Dropout Training as Adaptive Regularization'),
-  nips(2013),
-  url('http://arxiv.org/pdf/1307.1493.pdf'),
-  posterurl('dropout-nips2013-poster.pdf'),
-nil)
+  nil)
 
 entry!('chaganty13regression',
   author('Arun Chaganty and Percy Liang'),
@@ -4435,35 +4534,6 @@ entry!('steinhardt2014filtering',
   pages(727, 735),
   url('filtering-icml2014.pdf'),
   supplementalurl('filtering-icml2014-appendix.pdf'),
-nil)
-
-entry!('frostig2014subconstant',
-  author('Roy Frostig and Sida I. Wang'),
-  title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
-  arxiv(2014, '1408.2270'),
-  url('http://arxiv.org/abs/1408.2270'),
-nil)
-
-entry!('wager2014altitude',
-  title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
-  author('Stefan Wager and Will Fithian and Sida I. Wang and Percy Liang'),
-  nips(2014),
-  url('http://arxiv.org/pdf/1407.3289.pdf'),
-nil)
-
-entry!('frostig2014lowrank',
-  title('Simple {MAP} inference via low-rank relaxations'),
-  author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
-  nips(2014),
-  url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
-  codalab('0x106abb3b47be492aa7387f528c943faa'),
-nil)
-
-entry!('wang2014iqp',
-  author('Sida I. Wang and Roy Frostig and Percy Liang and Chris Manning'),
-  title('Relaxations for inference in restricted {B}oltzmann machines'),
-  iclrWorkshop(2014),
-  url('http://arxiv.org/abs/1312.6205'),
 nil)
 
 entry!('ghahramani1999variational',
@@ -5288,7 +5358,7 @@ entry!('auli2011efficient',
 nil)
 
 entry!('manning2014stanford',
-  title('The Stanford Core{NLP} natural language processing toolkit'),
+  title('The {S}tanford Core{NLP} natural language processing toolkit'),
   inproceedings('ACL system demonstrations',2014),
   author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
 nil)
@@ -5463,13 +5533,6 @@ entry!('steinhardt2015relaxed',
   codalab('0xc9db508bb80446d2b66cbc8e2c74c052'),
 nil)
 
-entry!('wang2015polynomial',
-  nips(2015),
-  title('Estimating Mixture Models via Mixture of Polynomials'),
-  author('Sida I. Wang and Arun Chaganty and Percy Liang'),
-  url('polynomial-nips2015.pdf'),
-  codalab('0xca42b883b1f9481989cfb02fe693649f'),
-nil)
 
 entry!('werling2015onthejob',
   nips(2015),
@@ -8376,13 +8439,6 @@ entry!('bordes2015simple',
   arxiv(2015, '1506.02075'),
   title('Large-scale Simple Question Answering with Memory Networks'),
   author('Antoine Bordes and Nicolas Usunier and Sumit Chopra and Jason Weston'),
-nil)
-
-entry!('wang2013fast',
-  icml(2013),
-  title('Fast dropout training'),
-  author('Sida I. Wang and Christopher Manning'),
-  pages(118, 126),
 nil)
 
 entry!('mcallester2013pac',

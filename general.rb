@@ -1,4 +1,4 @@
-# encoding: UTF-8
+# encoding: utf-8
 $: << File.dirname(__FILE__)
 
 # General utilities for constructing bib entries and outputting BibTeX, HTML, plain text, etc.
@@ -154,7 +154,9 @@ class Entry
 
   def toHTML(id)
     authorClass = "authorName"
-    def link(text, url); url ? "<a href=\"#{url}\">#{text}</a>" : text end
+    @buttonClass = "btn btn-default btn-xs"
+    def link(text, url); url ? "<a a href=\"#{url}\">#{text}</a>" : text end
+    def linkbox(text, url); url ? "<a class=\"#{@buttonClass}\" href=\"#{url}\">#{text}</a>" : text end
     def it(text); "<i>#{text}</i>" end
     def bold(text); "<b>#{text}</b>" end
     def verbatimLines(lines); lines ? "<pre>\n#{lines.join("\n")}\n</pre>" : nil end
@@ -166,20 +168,20 @@ class Entry
     end
     def displayPopup(anchorText, destDiv, sourceDiv)
       return nil unless sourceDiv
-      displayPL("<a href=\"javascript:copy(#{destDiv}, #{sourceDiv})\">#{anchorText}</a>")
+      displayPL("<a class=\"#{@buttonClass}\" href=\"javascript:copy(#{destDiv}, #{sourceDiv})\">#{anchorText}</a>")
     end
     def displayLink(anchorText, url)
       return nil unless url
-      displayPL(link(anchorText, url))
+      displayPL(linkbox(anchorText, url))
     end
     def blockquote(text); "<blockquote>\n#{text}\n</blockquote>" end
-    def displayPL(text); size("[#{text}]", -1) end
+    def displayPL(text); "#{text}" end
     def size(text, size); "<font size=\"#{size}\">#{text}</font>" end
     def color(text, color); "<font color=\"#{color}\">#{text}</font>" end
     def spanClass(text, className); "<span class=\"#{className}\">#{text}</span>" end
 
     newline = ''
-    #newline = '<br>'  # Put title, author, venues on separate lines
+    newline = '<br>'  # Put title, author, venues on separate lines
 
     url = getFirst('url') || getFirst('url') || getFirst('slidesurl') || getFirst('posterurl')
     output = []
@@ -189,7 +191,7 @@ class Entry
       #$stderr.puts "No author link for #{name}" unless l
       link(spanClass(latexToHTML(name), authorClass), l)
     }.join(', ') + '.' + newline
-    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} "
+    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} " + newline
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
     output << hiddenText("bib#{id}", verbatimLines(toBibtex(false)))
@@ -204,12 +206,13 @@ class Entry
                displayLink('errata', getFirst('errataurl')),
                displayLink('slides', getFirst('slidesurl')),
                displayLink('poster', getFirst('posterurl')),
+               displayLink('talk', getFirst('talkurl')),
                displayLink('code', getFirst('code')),
                displayLink('data', getFirst('data')),
                displayLink('project', getFirst('project')),
-               displayLink('CodaLab', getFirst('codalab') ? 'https://worksheets.codalab.org/worksheets/' + getFirst('codalab') : nil),
+               displayLink('codalab', getFirst('codalab') ? 'https://worksheets.codalab.org/worksheets/' + getFirst('codalab') : nil),
                displayLink('demo', getFirst('demo')),
-              nil].compact.join(' ')+"<br>"
+              nil].compact.join(' ')+"<br><br>"
     output << "<div id=\"div#{id}\"></div>"
     output.join("\n")
   end
@@ -305,6 +308,7 @@ def punchlines(*x);     field('punchlines', *x)     end
 def url(x);             field('url', x)             end
 def slidesurl(x);       field('slidesurl', x)       end
 def posterurl(x);       field('posterurl', x)       end
+def talkurl(x);         field('talkurl', x)         end
 def thesisurl(x);       field('thesisurl', x)       end
 def journalurl(x);      field('journalurl', x)      end
 def techreporturl(x);   field('techreporturl', x)   end
@@ -499,7 +503,7 @@ def printHTML(entriesList, out)
     out.puts "<h3>#{heading}</h3>" if heading
     out.puts "<ul>"
     entries.each { |entry|
-      out.puts "<li>"+entry.toHTML(id)+"</li>"
+      out.puts "<li class=\"pub\">"+entry.toHTML(id)+"</li>"
       id += 1
     }
     out.puts "</ul>"
