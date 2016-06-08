@@ -9,13 +9,14 @@
 # And other metadata which goes into the HTML output, not the bib:
 #   project('...')
 
-
 entry!('wang2015polynomial',
   nips(2015),
   title('Estimating Mixture Models via Mixture of Polynomials'),
   author('Sida I. Wang and Arun Chaganty and Percy Liang'),
-  url('polynomial-nips2015.pdf'),
+  url('http://arxiv.org/abs/1603.08482'),
   codalab('0xca42b883b1f9481989cfb02fe693649f'),
+  code('https://github.com/sidaw/polymom'),
+  code('https://github.com/sidaw/mompy'),
   posterurl('polymom-poster.pdf'),
   nil)
 
@@ -91,14 +92,15 @@ entry!('green2013feature',
   title('Fast and Adaptive Online Training of Feature-Rich Translation Models'),
   acl(2013),
   url('green2013feature.pdf'),
-  nil)
+  slidesurl('green2013feature-slides.pdf'),
+nil)
 
 entry!('green2013wmt',
   author('Spence Green and Daniel Cer and Kevin Reschke and Rob Voigt and John Bauer and Sida I. Wang and Natalia Silveira and  Julia Neidert and Christopher D. Manning'),
   title('Feature-Rich Phrase-based Translation: {S}tanford {U}niversity’s Submission to the {WMT} 2013 Translation Task'),
   inproceedings('ACL 2013 Eighth Workshop on Statistical Machine Translation', 2013),
   url('green13wmt.pdf'),
-  nil)
+nil)
 
 entry!('wang2012simple',
   author('Sida I. Wang and Chris Manning'),
@@ -106,14 +108,14 @@ entry!('wang2012simple',
   acl(2012),
   url('wang2012simple.pdf'),
   code('https://github.com/sidaw/nbsvm'),
-  nil)
+nil)
 
 entry!('hinton2011transforming',
   author('Geoffrey E. Hinton and Alex Krizhevsky and Sida I. Wang'),
   title('Object Recognition using Capsules'),
   icann(2011),
   url('hinton2011transforming.pdf'),
-  nil)
+nil)
 
 entry!('wang2011trans',
   author('Sida I. Wang'),
@@ -121,7 +123,6 @@ entry!('wang2011trans',
   url('wang2011trans-thesis.pdf'),
   mastersthesis('University of Toronto', 2011),
 nil)
-
 
 entry!('ferguson73dp',
   author('T. S. Ferguson'),
