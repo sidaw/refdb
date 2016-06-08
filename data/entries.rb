@@ -8,6 +8,12 @@
 #   icml(2014)
 # And other metadata which goes into the HTML output, not the bib:
 #   project('...')
+entry!('wang2016games',
+  author('Sida I. Wang and Percy Liang and Chris Manning'),
+  title('Learning Language Games through Interaction'),
+  acl(2016),
+  url('http://shrdlurn.sidaw.xyz'),
+nil)
 
 entry!('wang2015polynomial',
   nips(2015),
@@ -36,14 +42,14 @@ nil)
 
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
-  author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
+  author('Roy Frostig and Sida I. Wang and Percy Liang and Christopher D. Manning'),
   nips(2014),
   url('frostig2014lowrank.pdf'),
   codalab('0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
-  author('Sida I. Wang and Roy Frostig and Percy Liang and Chris Manning'),
+  author('Sida I. Wang and Roy Frostig and Percy Liang and Christopher D. Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclrWorkshop(2014),
   slidesurl('rrr_iclr2014.pdf'),
@@ -61,7 +67,7 @@ nil)
 entry!('wang2013fast',
   icml(2013),
   title('Fast dropout training'),
-  author('Sida I. Wang and Christopher Manning'),
+  author('Sida I. Wang and Christopher D. Manning'),
   pages(118, 126),
   url('http://jmlr.csail.mit.edu/proceedings/papers/v28/wang13a.pdf'),
   slidesurl('fastdropout-talk.pdf'),
@@ -9511,12 +9517,6 @@ entry!('lee2014time',
   author('Kenton Lee and Yoav Artzi and Jesse Dodge and Luke Zettlemoyer'),
   title('Context-dependent Semantic Parsing for Time Expressions'),
   acl(2014),
-nil)
-
-entry!('wang2016games',
-  author('Sida I. Wang and Percy Liang and Chris Manning'),
-  title('Learning Language Games through Interaction'),
-  acl(2016),
 nil)
 
 entry!('wang2016recombination',
