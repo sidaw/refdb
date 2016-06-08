@@ -71,6 +71,7 @@ def uist(year); inproceedings(Name.new('User Interface Software and Technology',
 def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
 
 def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
+def dmin(year); [inproceedings(Name.new('International Conference on Data Mining', 'DMIN'), year)] end
 
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
@@ -128,7 +129,8 @@ def conll(year); [inproceedings(Name.new('Computational Natural Language Learnin
 def conll2010; [conll(2010), address('Uppsala, Sweden')] end
 
 def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
-def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), 1996)] end
+def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), year)] end
+def konvens(year); [inproceedings(Name.new('Conference on Natural Language Processing', 'KONVENS'), year)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end

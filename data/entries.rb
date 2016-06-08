@@ -1765,6 +1765,12 @@ entry!('lu09generation',
   emnlp(2009), pages(400, 409),
 nil)
 
+entry!('lu12probabilistic',
+  title('A Probabilistic Forest-to-String Model for Language Generation from Typed Lambda Calculus Expressions'),
+  author('Wei Lu and Hwee Tou Ng'),
+  emnlp(2012), pages(1611, 1622),
+nil)
+
 entry!('ratnaparkhi02surface',
   title('Trainable approaches to surface natural language generation and their application to conversational dialog systems'),
   author('Adwait Ratnaparkhi'),
@@ -5328,7 +5334,7 @@ entry!('halko2011structure',
   pages(217,288),
   title("Finding Structure with Randomness: Probabilistic Algorithms for
               Constructing Approximate Matrix Decompositions"),
-  author("Halko, N and Martinsson, P and Tropp, J"),
+  author("N. Halko and {P.-G.} Martinsson and J. Tropp"),
 nil)
 
 entry!('zhang2014crowdsourcing',
@@ -8797,6 +8803,12 @@ entry!('balasubramanian2011unsupervised',
   jmlr(2011, 12), pages(3119, 3145),
 nil)
 
+entry!('donmez2010unsupervised',
+  title('Unsupervised supervised learning {I}: Estimating classification and regression errors without labels'),
+  author('Pinar Donmez and Guy Lebanon and Krishnakumar Balasubramanian'),
+  jmlr(2010, 11), pages(1323, 1351),
+nil)
+
 entry!('cozman2006risks',
   title('Risks of Semi-Supervised Learning: How Unlabeled Data Can Degrade Performance of Generative Classifiers'),
   author('Fabio Cozman and Ira Cohen'),
@@ -9296,7 +9308,6 @@ entry!('thompson1933likelihood',
   author('William R Thompson'),
   number('3/4'),
   pages(285, 294),
-  publisher('JSTOR'),
 nil)
 
 entry!('lai1985asymptotically',
@@ -9408,6 +9419,7 @@ nil)
 
 entry!('monroe2015pragmatics',
   title('Learning in the {R}ational {S}peech {A}cts Model'),
+  unusualCapitalization('Rational', 'Speech', 'Acts'),
   author('Will Monroe  and  Christopher Potts'),
   inproceedings('Proceedings of 20th {A}msterdam {C}olloquium', 2015),
 nil)
@@ -9501,6 +9513,48 @@ entry!('lee2014time',
   acl(2014),
 nil)
 
+entry!('wang2016games',
+  author('Sida I. Wang and Percy Liang and Chris Manning'),
+  title('Learning Language Games through Interaction'),
+  acl(2016),
+nil)
+
+entry!('wang2016recombination',
+  author('Robin Jia and Percy Liang'),
+  title('Data Recombination for Neural Semantic Parsing'),
+  acl(2016),
+nil)
+
+entry!('long2016projections',
+  author('Reginald Long and Panupong Pasupat and Percy Liang'),
+  title('Simpler Context-Dependent Logical Forms via Model Projections'),
+  acl(2016),
+nil)
+
+entry!('pasupat2016inferring',
+  author('Panupong Pasupat and Percy Liang'),
+  title('Inferring Logical Forms From Denotations'),
+  acl(2016),
+nil)
+
+entry!('khani2016unanimity',
+  author('Fereshte Khani and Martin Rinard and Percy Liang'),
+  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Parsers'),
+  acl(2016),
+nil)
+
+entry!('chaganty2016perspectives',
+  author('Arun Chaganty and Percy Liang'),
+  title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
+  acl(2016),
+nil)
+
+entry!('raghunathan2016linear',
+  author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
+  title('Estimation from Indirect Supervision with Linear Moments'),
+  icml(2016),
+nil)
+
 entry!('wager2016levy',
   title('Data Augmentation via {L}\\\'evy Processes'),
   author('Stefan Wager and Will Fithian and Percy Liang'),
@@ -9514,4 +9568,964 @@ entry!('liang2016executable',
   article('Communications of the ACM', 2016, 0),
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
+nil)
+
+entry!('awasthi2013learning',
+  colt(2013),
+  title('Learning Using Local Membership Queries'),
+  author('Pranjal Awasthi and Vitaly Feldman and Varun Kanade'),
+  pages(398, 431),
+nil)
+
+entry!('sedghi2014provable',
+  arxiv(2014, '1412.2693'),
+  title('Provable methods for training neural networks with sparse connectivity'),
+  author('Hanie Sedghi and Anima Anandkumar'),
+nil)
+
+entry!('bottou2012stochastic',
+  title('Stochastic gradient descent tricks'),
+  author('Léon Bottou'),
+  inproceedings('Neural Networks: Tricks of the Trade', 2012),
+  pages(421, 436),
+  publisher('Springer'),
+nil)
+
+entry!('zhang2015l1',
+  arxiv(2015, '1510.03528'),
+  title('$\ell_1$-regularized Neural Networks are Improperly Learnable in Polynomial Time'),
+  author('Yuchen Zhang and Jason D Lee and Michael I Jordan'),
+nil)
+
+entry!('hinton2012speech',
+  article('Signal Processing Magazine, IEEE', 2012, 29),
+  title('Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups'),
+  author('Geoffrey Hinton and Li Deng and Dong Yu and George E Dahl and Abdel-rahman Mohamed and Navdeep Jaitly and Andrew Senior and Vincent Vanhoucke and Patrick Nguyen and Tara N Sainath and others'),
+  number(6),
+  pages(82, 97),
+  publisher('IEEE'),
+nil)
+
+entry!('klivans2006cryptographic',
+  focs(2006),
+  title('Cryptographic hardness for learning intersections of halfspaces'),
+  author('Adam R Klivans and Alexander A Sherstov'),
+  pages(553, 562),
+  organization('IEEE'),
+nil)
+
+entry!('fukumizu2000statistical',
+  article('IEEE Transactions on Neural Networks', 2000, 11),
+  title('Statistical active learning in multilayer perceptrons'),
+  author('Kenji Fukumizu'),
+  number(1),
+  pages(17, 26),
+  publisher('IEEE'),
+nil)
+
+entry!('hasenjager2002active',
+  title('Active learning in neural networks'),
+  author('M Hasenjäger and H Ritter'),
+  inproceedings('New learning paradigms in soft computing', 2002),
+  pages(137, 169),
+  publisher('Springer'),
+nil)
+
+entry!('wright2012sparse',
+  jmlr(2012, 1),
+  title('Exact Recovery of Sparsely-Used Dictionaries'),
+  author('John Wright'),
+  pages(1, 35),
+nil)
+
+entry!('cote2012chernoff',
+  arxiv(2012, '1202.6483'),
+  title('A Chernoff-type lower bound for the {G}aussian {Q}-function'),
+  author('François D Côté and Ioannis N Psaromiligkos and Warren J Gross'),
+nil)
+
+entry!('maas2013rectifier',
+  icml(2013),
+  title('Rectifier nonlinearities improve neural network acoustic models'),
+  author('Andrew L Maas and Awni Y Hannun and Andrew Y Ng'),
+nil)
+
+entry!('janzamin2015score',
+  iclr(2015),
+  title('Score Function Features for Discriminative Learning'),
+  author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
+nil)
+
+entry!('glorot2011deep',
+  aistats(2011),
+  title('Deep sparse rectifier neural networks'),
+  author('Xavier Glorot and Antoine Bordes and Yoshua Bengio'),
+  pages(315, 323),
+nil)
+
+entry!('vapnik1971uniform',
+  title('On uniform convergence of the frequencies of events to their probabilities'),
+  author('Vladimir N. Vapnik and Aleksei Y. Chervonenkis'),
+  article('Teoriya Veroyatnostei i ee Primeneniya', 1971),
+  volume(16),
+  number(2),
+  pages(264,279),
+  publisher('Russian Academy of Sciences, Branch of Mathematical Sciences'),
+nil)
+
+entry!('lee2001algorithms',
+  title('Algorithms for non-negative matrix factorization'),
+  author('Daniel D. Lee and Sebastian H. Seung'),
+  nips(2001), pages(556, 562),
+nil)
+
+entry!('karger2014budget',
+  title('Budget-optimal task allocation for reliable crowdsourcing systems'),
+  author('David R. Karger and Sewoong Oh and Devavrat Shah'),
+  article('Operations Research', 2014),
+  volume(62),
+  number(1),
+  pages(1,24),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('shah2015approval',
+  title('Approval Voting and Incentives in Crowdsourcing'),
+  author('Nihar Shah and Dengyong Zhou and Yuval Peres'),
+  icml(2015),
+nil)
+
+entry!('shah2015double',
+  title('Double or nothing: Multiplicative incentive mechanisms for crowdsourcing'),
+  author('Nihar B. Shah and Denny Zhou'),
+  nips(2015),
+nil)
+
+entry!('zhou2015regularized',
+  title('Regularized minimax conditional entropy for crowdsourcing'),
+  author('Dengyong Zhou and Qiang Liu and John C. Platt and Christopher Meek and Nihar B. Shah'),
+  arxiv(2015),
+nil)
+
+entry!('kamble2015truth',
+  title('Truth Serums for Massively Crowdsourced Evaluation Tasks'),
+  author('Vijay Kamble and Nihar Shah and David Marn and Abhay Parekh and Kannan Ramachandran'),
+  arxiv(2015),
+nil)
+
+entry!('miller2005eliciting',
+  title('Eliciting informative feedback: The peer-prediction method'),
+  author('Nolan Miller and Paul Resnick and Richard Zeckhauser'),
+  article('Management Science', 2005),
+  volume(51), number(9), pages(1359, 1373),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('shnayder2016strong',
+  type('misc'),
+  title('Strong Truthfulness in Multi-Task Peer Prediction'),
+  author('Victor Shnayder and Rafael Frongillo and Arpit Agarwal and David C. Parkes'),
+  year(2016),
+nil)
+
+entry!('dasgupta2013crowdsourced',
+  title('Crowdsourced judgement elicitation with endogenous proficiency'),
+  author('Anirban Dasgupta and Arpita Ghosh'),
+  www(2013), pages(319,330),
+nil)
+
+entry!('harmon2004amazon',
+  title('Amazon Glitch Unmasks War Of Reviewers'),
+  author('Amy Harmon'),
+  article('New York Times', 2004),
+nil)
+
+entry!('white1999chatting',
+  title('Chatting a singer up the pop charts'),
+  author('Erin White'),
+  article('Wall Street Journal', 1999),
+nil)
+
+entry!('mayzlin2006promotional',
+  title('Promotional chat on the Internet'),
+  author('Dina Mayzlin'),
+  article('Marketing Science', 2006),
+  volume(25),
+  number(2),
+  pages(155,163),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('dellarocas2006strategic',
+  title('Strategic manipulation of internet opinion forums: Implications for consumers and firms'),
+  author('Chrysanthos Dellarocas'),
+  article('Management science', 2006),
+  volume(52), number(10), pages(1577,1593),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('resnick2007influence',
+  title('The influence limiter: provably manipulation-resistant recommender systems'),
+  author('Paul Resnick and Rahul Sami'),
+  inproceedings('ACM Conference on Recommender Systems', 2007),
+  pages(25,32),
+nil)
+
+entry!('piech2013tuned',
+  title('Tuned models of peer assessment in {MOOC}s'),
+  author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
+  arxiv(2013),
+nil)
+
+entry!('priedhorsky2007creating',
+  title('Creating, destroying, and restoring value in {W}ikipedia'),
+  author('Reid Priedhorsky and Jilin Chen and Shyong T. K. Lam and Katherine Panciera and Loren Terveen and John Riedl'),
+  inproceedings('International {ACM} Conference on Supporting Group Work', 2007),
+  pages(259,268),
+nil)
+
+entry!('kulkarni2015peer',
+  title('Peer and self assessment in massive online classes'),
+  author('Chinmay Kulkarni and Pang Wei Koh and Huy Huy and Daniel Chia and Kathryn Papadopoulos and Justin Cheng and Daphne Koller and Scott R. Klemmer'),
+  article('Design Thinking Research', 2015), pages(131, 168), publisher('Springer'),
+nil)
+
+entry!('vuurens2011spam',
+  title('How much spam can you take? {A}n analysis of crowdsourcing results to increase accuracy'),
+  unusualCapitalization('An'),
+  author('Jeroen Vuurens and Arjen P. de Vries and Carsten Eickhoff'),
+  article('ACM SIGIR Workshop on Crowdsourcing for Information Retrieval', 2011),
+nil)
+
+entry!('chen2014improved',
+  title('Improved graph clustering'),
+  author('Yudong Chen and Sujay Sanghavi and Huan Xu'),
+  article('IEEE Transactions on Information Theory', 2014),
+  volume(60),number(10), pages(6440,6455), publisher('IEEE'),
+nil)
+
+entry!('condon2001algorithms',
+  title('Algorithms for graph partitioning on the planted partition model'),
+  author('Anne Condon and Richard M. Karp'),
+  article('Random Structures and Algorithms', 2001),
+  pages(116, 140),
+nil)
+
+entry!('holland1983stochastic',
+  title('Stochastic blockmodels: Some first steps'),
+  author('Paul W. Holland and Kathryn B. Laskey and Samuel Leinhardt'),
+  article('Social Networks', 1983), volume(5), pages(109, 137),
+nil)
+
+entry!('coja2004coloring',
+  title('Coloring semirandom graphs optimally'),
+  author('Amin Coja-Oghlan'),
+  article('Automata, Languages and Programming', 2004),
+  pages(71, 100),
+nil)
+
+entry!('feige2001heuristics',
+  title('Heuristics for semirandom graph problems'),
+  author('Uriel Feige and Joe Kilian'),
+  article('Journal of Computer and System Sciences', 2001),
+  volume(63), number(4), pages(639, 671), 
+nil)
+
+entry!('feige2000finding',
+  title('Finding and certifying a large hidden clique in a semirandom graph'),
+  author('Uriel Feige and Robert Krauthgamer'),
+  article('Random Structures and Algorithms', 2000), volume(16), number(2), pages(195, 208),
+nil)
+
+entry!('makarychev2012approximation',
+  title('Approximation algorithms for semi-random partitioning problems'),
+  author('Konstantin Makarychev and Yury Makarychev and Aravindan Vijayaraghavan'),
+  stoc(2012), pages(367, 384), 
+nil)
+
+entry!('krivelevich2006semirandom',
+  title('Semirandom models as benchmarks for coloring algorithms'),
+  author('Michael Krivelevich and Dan Vilenchik'),
+  inproceedings('Meeting on Analytic Algorithmics and Combinatorics', 2006), pages(211, 221),
+nil)
+
+entry!('coja2002coloring',
+  title('Coloring {K}-colorable semirandom graphs in polynomial expected time via semidefinite programming'),
+  author('Amin Coja-Oghlan'),
+  article('Mathematical Foundations of Computer Science', 2002),
+  pages(201,211),
+  publisher('Springer'),
+nil)
+
+entry!('coja2002finding',
+  title('Finding sparse induced subgraphs of semirandom graphs'),
+  author('Amin Coja-Oghlan'),
+  article('Randomization and Approximation Techniques in Computer Science', 2002),
+  pages(139,148),
+  publisher('Springer'),
+nil)
+
+entry!('coja2007solving',
+  title('Solving {NP}-hard semirandom graph problems in polynomial expected time'),
+  author('Amin Coja-Oghlan'),
+  article('Journal of Algorithms', 2007),
+  volume(62), number(1), pages(19, 46), 
+nil)
+
+entry!('kolla2011play',
+  title('How to play unique games against a semi-random adversary: Study of semi-random models of unique games'),
+  author('Alexandra Kolla and Konstantin Makarychev and Yury Makarychev'),
+  focs(2011),
+  pages(443,452),
+nil)
+
+entry!('mossel2013proof',
+  title('A proof of the block model threshold conjecture'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2013),
+nil)
+
+entry!('massoulie2014community',
+  title('Community detection thresholds and the weak {R}amanujan property'),
+  author('Laurent Massouli{\\\'e}'),
+  stoc(2014), pages(694, 703),
+nil)
+
+entry!('guedon2014community',
+  title('Community detection in sparse networks via {G}rothendieck\'s inequality'),
+  author('Olivier Gu{\\\'e}don and Roman Vershynin'),
+  arxiv(2014),
+nil)
+
+entry!('abbe2015community',
+  title('Community detection in general stochastic block models: fundamental limits and efficient recovery algorithms'),
+  author('Emmanuel Abbe and Colin Sandon'),
+  arxiv(2015),
+nil)
+
+entry!('chin2015stochastic',
+  title('Stochastic block model and community detection in the sparse graphs: A spectral algorithm with optimal rate of recovery'),
+  author('Peter Chin and Anup Rao and Van Vu'),
+  colt(2015),
+nil)
+
+entry!('decelle2011asymptotic',
+  title('Asymptotic analysis of the stochastic block model for modular networks and its algorithmic applications'),
+  author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
+  article('Physical Review E', 2011), volume(84), number(6),
+nil)
+
+entry!('mossel2012stochastic',
+  title('Stochastic block models and reconstruction'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2012),
+nil)
+
+entry!('mossel2013belief',
+  title('Belief propagation, robust reconstruction, and optimal recovery of block models'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2013),
+nil)
+
+entry!('mossel2015consistency',
+  title('Consistency thresholds for the planted bisection model'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  stoc(2015), pages(69, 75),
+nil)
+
+entry!('moitra2015robust',
+  title('How Robust are Reconstruction Thresholds for Community Detection?'),
+  author('Ankur Moitra and William Perry and Alexander S. Wein'),
+  arxiv(2015),
+nil)
+
+entry!('agarwal2015multisection',
+  title('Multisection in the stochastic block model using semidefinite programming'),
+  author('Naman Agarwal and Afonso S. Bandeira and Konstantinos Koiliaris and Alexandra Kolla'),
+  arxiv(2015),
+nil)
+
+entry!('makarychev2015learning',
+  title('Learning Communities in the Presence of Errors'),
+  author('Konstantin Makarychev and Yury Makarychev and Aravindan Vijayaraghavan'),
+  arxiv(2015),
+nil)
+
+entry!('cai2015robust',
+  title('Robust and computationally feasible community detection in the presence of arbitrary outlier nodes'),
+  author('T. Tony Cai and Xiaodong Li'),
+  article('The Annals of Statistics', 2015),
+  volume(43), number(3), pages(1027, 1059),
+nil)
+
+entry!('christiano2014provably',
+  title('Provably Manipulation-Resistant Reputation Systems'),
+  author('Paul Christiano'),
+  arxiv(2014),
+nil)
+
+entry!('christiano2016robust',
+  title('Robust Collaborative Online Learning'),
+  author('Paul Christiano'),
+  arxiv(2016),
+nil)
+
+entry!('andreas2014grounding',
+  conll(2014),
+  title('Grounding Language with Points and Paths in Continuous Spaces'),
+  author('Jacob Andreas and Dan Klein'),
+  pages(58, 67),
+nil)
+
+entry!('andreas2015alignment',
+  emnlp(2015),
+  title('Alignment-Based Compositional Semantics for Instruction Following'),
+  author('Jacob Andreas and Dan Klein'),
+nil)
+
+entry!('heider1944experimental',
+  article('American Journal of Psychology', 1944, 57),
+  title('An experimental study of apparent behavior'),
+  author('Fritz Heider and Marianne Simmel'),
+  number(2),
+  pages(243, 259),
+nil)
+
+entry!('dorazio2010review',
+  article('Pattern recognition', 2010, 43),
+  title('A review of vision-based systems for soccer video analysis'),
+  author('Tiziana D\'Orazio and Marco Leo'),
+  number(8),
+  pages(2911, 2926),
+  publisher('Elsevier'),
+nil)
+
+entry!('regier2001grounding',
+  article('Journal of experimental psychology: General', 2001, 130),
+  title('Grounding spatial language in perception: An empirical and computational investigation'),
+  author('Terry Regier and Laura A Carlson'),
+  number(2),
+  publisher('American Psychological Association'),
+nil)
+
+entry!('gorniak2004grounded',
+  jair(2004, 21),
+  title('Grounded semantic composition for visual scenes'),
+  author('Peter Gorniak and Deb Roy'),
+  pages(429, 470),
+nil)
+
+entry!('tellex2009grounding',
+  inproceedings('International Conference on Multimodal Interfaces (ICMI)', 2009),
+  title('Grounding spatial prepositions for video search'),
+  author('Stefanie Tellex and Deb Roy'),
+  pages(253, 260),
+  organization('ACM'),
+nil)
+
+entry!('goodman2014concepts',
+  title('Concepts in a probabilistic language of thought'),
+  author('Noah D Goodman and Joshua B Tenenbaum and Tobias Gerstenberg'),
+  inproceedings('The Conceptual Mind: New Directions in the Study of Concepts', 2014),
+  editor('Morgolis & Lawrence'),
+nil)
+
+entry!('kemp2007learning',
+  nips(2007),
+  title('Learning and using relational theories'),
+  author('Charles Kemp and Noah Goodman and Joshua B Tenenbaum'),
+  pages(753, 760),
+nil)
+
+entry!('lake2013one',
+  nips(2013),
+  title('One-shot learning by inverting a compositional causal process'),
+  author('Brenden M Lake and Ruslan R Salakhutdinov and Josh Tenenbaum'),
+  pages(2526, 2534),
+nil)
+
+entry!('narayanan1997knowledge',
+  title('Knowledge-based Action Representations for Metaphor and Aspect (KARMA)'),
+  author('Srinivas Sankara Narayanan'),
+  phdthesis('University of California Berkeley at Berkeley', 1997),
+nil)
+
+entry!('lakoff2008metaphors',
+  title('Metaphors we live by'),
+  author('George Lakoff and Mark Johnson'),
+  book('University of Chicago Press', 2008),
+nil)
+
+entry!('hansen2014uncertainty',
+  title('Uncertainty Outside and Inside Economic Models'),
+  author('Lars Peter Hansen'),
+  article('Journal of Political Economy', 2014),
+  volume(122), number(5),
+  pages(945, 987),
+nil)
+
+entry!('anderson1949estimation',
+  title('Estimation of the parameters of a single equation in a complete system of stochastic equations'),
+  author('Theodore W. Anderson and Herman Rubin'),
+  article('The Annals of Mathematical Statistics', 1949),
+  pages(46, 63), 
+nil)
+
+entry!('anderson1950asymptotic',
+  title('The asymptotic properties of estimates of the parameters of a single equation in a complete system of stochastic equations'),
+  author('Theodore W. Anderson and Herman Rubin'),
+  article('The Annals of Mathematical Statistics', 1950), pages(570,582),
+nil)
+
+entry!('sargan1958estimation',
+  title('The estimation of economic relationships using instrumental variables'),
+  author('John D. Sargan'),
+  article('Econometrica', 1958), pages(393, 415),
+nil)
+
+entry!('sargan1959estimation',
+  title('The estimation of relationships with autocorrelated residuals by the use of instrumental variables'),
+  author('John D. Sargan'),
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 1959),
+  pages(91,105),
+nil)
+
+entry!('chegireddy1987algorithms',
+  title('Algorithms for finding {k}-best perfect matchings'),
+  author('Chandra R. Chegireddy and Horst W. Hamacher'),
+  article('Discrete applied mathematics', 1987),
+  volume(18), number(2), pages(155, 165),
+nil)
+
+entry!('karpathy2015deep',
+  cvpr(2015),
+  title('Deep visual-semantic alignments for generating image descriptions'),
+  author('Andrej Karpathy and Li Fei-Fei'),
+  pages(3128, 3137),
+nil)
+
+entry!('antol2015vqa',
+  iccv(2015),
+  title('VQA: Visual question answering'),
+  author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
+  pages(2425, 2433),
+nil)
+
+entry!('shirakawan2015ngramidf',
+  title('{N}-gram IDF: A Global Term Weighting Scheme Based on Information Distance'),
+  author('Masumi Shirakawa and Takahiro Hara and Shojiro Nishio'),
+  www(2015),
+  pages(960, 970),
+nil)
+
+
+entry!('cartis2009finding',
+  inproceedings('SPARS\'09-Signal Processing with Adaptive Sparse Structured Representations', 2009),
+  title('Finding a point in the relative interior of a polyhedron, with applications to compressed sensing'),
+  author('Coralia Cartis and Gould Nicholas IM'),
+nil)
+
+entry!('le2015concentration',
+ author('Can M. Le and Roman Vershynin'),
+ title('Concentration and Regularization of Random Graphs'),
+ arxiv(2015),
+nil)
+
+entry!('balsubramani2016learning',
+  arxiv(2016, '1602.08151'),
+  title('Learning to Abstain from Binary Prediction'),
+  author('Akshay Balsubramani'),
+nil)
+
+entry!('chow1970optimum',
+  article('IEEE Transactions on Information Theory', 1970, 16),
+  title('On optimum recognition error and reject tradeoff'),
+  author('Chao K Chow'),
+  number(1),
+  pages(41, 46),
+  publisher('IEEE'),
+nil)
+
+entry!('tortorella2000optimal',
+  title('An optimal reject rule for binary classifiers'),
+  author('Francesco Tortorella'),
+  inproceedings('Advances in Pattern Recognition', 2000),
+  pages(611, 620),
+  publisher('Springer'),
+nil)
+
+entry!('hanneke2007bound',
+  icml(2007),
+  title('A bound on the label complexity of agnostic active learning'),
+  author('Steve Hanneke'),
+  pages(353, 360),
+  organization('ACM'),
+nil)
+
+entry!('nelson2009misleading',
+  title('Misleading learners: Co-opting your spam filter'),
+  author('Blaine Nelson and Marco Barreno and Fuching Jack Chi and Anthony D Joseph and Benjamin IP Rubinstein and Udam Saini and Charles Sutton and JD Tygar and Kai Xia'),
+  inproceedings('Machine learning in cyber trust', 2009),
+  pages(17, 51),
+  publisher('Springer'),
+nil)
+
+entry!('mannor2004sample',
+  title('The sample complexity of exploration in the multi-armed bandit problem'),
+  author('Shie Mannor and John N. Tsitsiklis'),
+  jmlr(2004, 5),
+  pages(623, 648),
+nil)
+
+entry!('chandrasekaran2014finding',
+  title('Finding a most biased coin with fewest flips'),
+  author('Karthekeyan Chandrasekaran and Richard Karp'),
+  colt(2014), pages(394,407),
+nil)
+
+entry!('banks2016information',
+  title('Information-theoretic thresholds for community detection in sparse networks'),
+  author('Jess Banks and Christopher Moore'),
+  arxiv(2016),
+nil)
+
+entry!('mayzlin2012promotional',
+  title('Promotional reviews: An empirical investigation of online review manipulation'),
+  author('Dina Mayzlin and Yaniv Dover and Judith A. Chevalier'),
+  techreport('National Bureau of Economic Research', 2012),
+nil)
+
+entry!('young2000probabilistic',
+  article('Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences', 2000, 358),
+  title('Probabilistic methods in spoken-dialogue systems'),
+  author('Steve J Young'),
+  number(1769),
+  pages(1389, 1402),
+  publisher('The Royal Society'),
+nil)
+
+entry!('young2013pomdp',
+  article('Proceedings of the IEEE', 2013, 101),
+  title('{POMDP}-based statistical spoken dialog systems: A review'),
+  author('Stephanie Young and Milica Gasic and Blaise Thomson and John D Williams'),
+  number(5),
+  pages(1160, 1179),
+  publisher('IEEE'),
+nil)
+
+entry!('williams2013dialog',
+  inproceedings('Proceedings of the SIGDIAL 2013 Conference', 2013),
+  title('The dialog state tracking challenge'),
+  author('Jason Williams and Antoine Raux and Deepak Ramachandran and Alan Black'),
+  pages(404, 413),
+nil)
+
+entry!('li2016persona',
+  acl(2016),
+  title('A Persona-Based Neural Conversation Model'),
+  author('Jiwei Li and Michel Galley and Chris Brockett and Jianfeng Gao and Bill Dolan'),
+nil)
+
+entry!('afantenos2012developing',
+  inproceedings('SeineDial 2012 - The 16th Workshop on the Semantics and Pragmatics of Dialogue', 2012),
+  title('Developing a corpus of strategic conversation in The Settlers of Catan'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cédric Dégremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and Philippe Muller and Soumya Paul and Verena Rieser and Laure Vieu'),
+nil)
+
+entry!('potts2012cards',
+  inproceedings('Proceedings of the 30th West Coast Conference on Formal Linguistics', 2012),
+  author('Christopher Potts'),
+  editor('Nathan Arnett and Ryan Bennett'),
+  publisher('Cascadilla Press'),
+  title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
+  year(2012),
+nil)
+
+entry!('serban2015survey',
+  arxiv(2015, '1512.05742'),
+  title('A Survey of Available Corpora for Building Data-Driven Dialogue Systems'),
+  author('Iulian Vlad Serban and Ryan Lowe and Laurent Charlin and Joelle Pineau'),
+nil)
+
+entry!('serban2015building',
+  arxiv(2015, '1507.04808'),
+  title('Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models'),
+  author('Iulian V Serban and Alessandro Sordoni and Yoshua Bengio and Aaron Courville and Joelle Pineau'),
+nil)
+
+entry!('lowe2015ubuntu',
+  arxiv(2015, '1506.08909'),
+  title('The {U}buntu dialogue corpus: A large dataset for research in unstructured multi-turn dialogue systems'),
+  author('Ryan Lowe and Nissan Pow and Iulian Serban and Joelle Pineau'),
+nil)
+
+entry!('shang2015neural',
+  acl(2015),
+  title('Neural responding machine for short-text conversation'),
+  author('Lifeng Shang and Zhengdong Lu and Hang Li'),
+nil)
+
+entry!('wen2015semantically',
+  emnlp(2015),
+  title('Semantically conditioned {LSTM}-based natural language generation for spoken dialogue systems'),
+  author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Pei-Hao Su and David Vandyke and Steve Young'),
+nil)
+
+entry!('ritter2011data',
+  emnlp(2011),
+  title('Data-driven response generation in social media'),
+  author('Alan Ritter and Colin Cherry and William B Dolan'),
+  pages(583, 593),
+nil)
+
+entry!('oh2000stochastic',
+  inproceedings('ANLP/NAACL Workshop on Conversational systems - Volume 3', 2000),
+  title('Stochastic language generation for spoken dialogue systems'),
+  author('Alice H Oh and Alexander I Rudnicky'),
+  pages(27, 32),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('mairesse2010phrase',
+  acl(2010),
+  title('Phrase-based statistical language generation using graphical models and active learning'),
+  author('François Mairesse and Milica Gašić and Filip Jurčíček and Simon Keizer and Blaise Thomson and Kai Yu and Steve Young'),
+  pages(1552, 1561),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('walker2002training',
+  article('Computer Speech \& Language', 2002, 16),
+  title('Training a sentence planner for spoken dialogue using boosting'),
+  author('Marilyn A Walker and Owen C Rambow and Monica Rogati'),
+  number(3),
+  pages(409, 433),
+  publisher('Elsevier'),
+nil)
+
+entry!('sordoni2015neural',
+  naacl(2015),
+  title('A neural network approach to context-sensitive generation of conversational responses'),
+  author('Alessandro Sordoni and Michel Galley and Michael Auli and Chris Brockett and Yangfeng Ji and Margaret Mitchell and Jian-Yun Nie and Jianfeng Gao and Bill Dolan'),
+nil)
+
+entry!('hirschman1999deep',
+  acl(1999),
+  title('Deep read: A reading comprehension system'),
+  author('Lynette Hirschman and Marc Light and Eric Breck and John D Burger'),
+  pages(325, 332),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('riloff2000rule',
+  inproceedings('ANLP/NAACL Workshop on reading comprehension tests as evaluation for computer-based language understanding sytems - Volume 6', 2000),
+  title('A rule-based question answering system for reading comprehension tests'),
+  author('Ellen Riloff and Michael Thelen'),
+  pages(13, 19),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('ng2000machine',
+  inproceedings('Joint SIGDAT conference on empirical methods in natural language processing and very large corpora - Volume 13', 2000),
+  title('A machine learning approach to answering questions for reading comprehension tests'),
+  author('Hwee Tou Ng and Leong Hwee Teo and Jennifer Lai Pheng Kwan'),
+  pages(124, 132),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('xu2006maximum',
+  naacl(2006),
+  title('A maximum entropy framework that integrates word dependencies and grammatical relations for reading comprehension'),
+  author('Kui Xu and Helen Meng and Fuliang Weng'),
+  pages(185, 188),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('wang2015machine',
+  acl(2015),
+  title('Machine comprehension with syntax, frames, and semantics'),
+  author('Hai Wang and Mohit Bansal and Kevin Gimpel and David McAllester'),
+nil)
+
+entry!('hill2015goldilocks',
+  iclr(2015),
+  title('The Goldilocks Principle: Reading Children\'s Books with Explicit Memory Representations'),
+  author('Felix Hill and Antoine Bordes and Sumit Chopra and Jason Weston'),
+nil)
+
+entry!('narasimhan2015machine',
+  acl(2015),
+  title('Machine comprehension with discourse relations'),
+  author('Karthik Narasimhan and Regina Barzilay'),
+nil)
+
+entry!('yang2015wikiqa',
+  emnlp(2015),
+  title('{W}iki{QA}: A Challenge Dataset for Open-Domain Question Answering'),
+  author('Yi Yang and Wen-tau Yih and Christopher Meek'),
+  pages(2013, 2018),
+nil)
+
+entry!('chen2016thorough',
+  acl(2016),
+  title('A Thorough Examination of the {CNN} / {D}aily {M}ail Reading Comprehension Task'),
+  unusualCapitalization('Daily', 'Mail'),
+  author('Danqi Chen and Jason Bolton and Christopher D. Manning'),
+nil)
+
+entry!('sun2013answer',
+  ijcai(2013),
+  title('Answer Extraction from Passage Graph for Question Answering'),
+  author('Hong Sun and Nan Duan and Yajuan Duan and Ming Zhou'),
+  organization('Citeseer'),
+nil)
+
+entry!('shen2006exploring',
+  colingacl2006,
+  title('Exploring correlation of dependency relation paths for answer extraction'),
+  author('Dan Shen and Dietrich Klakow'),
+  pages(889, 896),
+nil)
+
+entry!('ravichandran2002learning',
+  acl(2002),
+  title('Learning surface text patterns for a question answering system'),
+  author('Deepak Ravichandran and Eduard Hovy'),
+  pages(41, 47),
+nil)
+
+entry!('mostafazadeh2016corpus',
+  naacl(2016),
+  title('A corpus and cloze evaluation for deeper understanding of commonsense stories'),
+  author('Nasrin Mostafazadeh and Nathanael Chambers and Xiaodong He and Devi Parikh and Dhruv Batra and Lucy Vanderwende and Pushmeet Kohli and James Allen'),
+nil)
+
+entry!('wang2013simple',
+  inproceedings('Proceedings of the SIGDIAL 2013 Conference', 2013),
+  title('A simple and generic belief tracking mechanism for the dialog state tracking challenge: On the believability of observed information'),
+  author('Zhuoran Wang and Oliver Lemon'),
+  pages(423, 432),
+nil)
+
+entry!('roy2000spoken',
+  acl(2000),
+  title('Spoken dialogue management using probabilistic reasoning'),
+  author('Nicholas Roy and Joelle Pineau and Sebastian Thrun'),
+  pages(93, 100),
+nil)
+
+entry!('williams2007partially',
+  article('Computer Speech \& Language', 2007, 21),
+  title('Partially observable {M}arkov decision processes for spoken dialog systems'),
+  author('Jason D Williams and Steve Young'),
+  number(2),
+  pages(393, 422),
+  publisher('Elsevier'),
+nil)
+
+entry!('clark2016my',
+  article('AI Magazine', 2016, 37),
+  title('My Computer is an Honor Student but how Intelligent is it? Standardized Tests as a Measure of {AI}'),
+  author('Peter Clark and Oren Etzioni'),
+  number(1),
+  pages(5, 12),
+nil)
+
+entry!('schoenick2016moving',
+  arxiv(2016, '1604.04315'),
+  title('Moving Beyond the Turing Test with the Allen {AI} Science Challenge'),
+  author('Carissa Schoenick and Peter Clark and Oyvind Tafjord and Peter Turney and Oren Etzioni'),
+nil)
+
+entry!('gaikwad2015daemo',
+  inproceedings('Proceedings of the 28th Annual ACM Symposium on User Interface Software \& Technology', 2015),
+  title('Daemo: A Self-Governed Crowdsourcing Marketplace'),
+  author('Snehal Neil Gaikwad and Durim Morina and Rohit Nistala and Megha Agarwal and Alison Cossette and Radhika Bhanu and Saiph Savage and Vishwajeet Narwal and Karan Rajpal and Jeff Regino and others'),
+  pages(101, 102),
+  organization('ACM'),
+nil)
+
+entry!('voorhees2000building',
+  sigir(2000),
+  title('Building a question answering test collection'),
+  author('Ellen M Voorhees and Dawn M Tice'),
+  pages(200, 207),
+  organization('ACM'),
+nil)
+
+entry!('sachan2015learning',
+  acl(2015),
+  title('Learning answer-entailing structures for machine comprehension'),
+  author('Mrinmaya Sachan and Avinava Dubey and Eric P Xing and Matthew Richardson'),
+nil)
+
+entry!('gu2016copying',
+  acl(2016),
+  title('Incorporating Copying Mechanism in Sequence-to-Sequence Learning'),
+  author('Jiatao Gu and Zhengdong Lu and Hang Li and Victor O.K. Li'),
+nil)
+
+entry!('gulcehre2016pointing',
+  acl(2016),
+  title('Pointing the Unknown Words'),
+  author('Caglar Gulcehre and Sungjin Ahn and Ramesh Nallapati and Bowen Zhou and Yoshua Bengio'),
+nil)
+
+entry!('liu2007oversampling',
+  dmin(2007),
+  title('Generative Oversampling for Mining Imbalanced Datasets'),
+  author('Alexander Liu and Joydeep Ghosh and Cheryl Martin'),
+nil)
+
+entry!('petrov2010uptraining',
+  emnlp(2010),
+  title('Uptraining for accurate deterministic question parsing'),
+  author('Slav Petrov and Pi-Chuan Chang and Michael Ringgaard and Hiyan Alshawi'),
+nil)
+
+entry!('reckman2010virtualgame',
+  author('Hilke Reckman and Jeff Orkin and Deb Roy'),
+  title('Learning meanings of words and constructions, grounded in a virtual game'),
+  konvens(2010),
+nil)
+
+entry!('greenberg1996consistency',
+  article('Annals of Mathematics and Artificial Intelligence', 1996, 17),
+  title('Consistency, redundancy, and implied equalities in linear systems'),
+  author('Harvey J Greenberg'),
+  number(1),
+  pages(37, 83),
+  publisher('Springer'),
+nil)
+
+entry!('wen2016network',
+  arxiv(2016, '1604.04562'),
+  title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
+  author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
+nil)
+
+entry!('dong2016logical',
+  acl(2016),
+  title('Language to Logical Form with Neural Attention'),
+  author('Li Dong and Mirella Lapata'),
+nil)
+
+entry!('teigen2015framing',
+  author('Karl Halvor Teigen'),
+  title('Framing of Numeric Quantities'),
+  article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
+  pages(568,589),
+nil)
+
+entry!('roundy1985identifying',
+  techreport('Massachusetts Institute of Technology, Alfred P. Sloan School of Management', 1985),
+  title('Identifying the Set of Always-Active Constraints in a System of Linear Inequalities by a Single Linear Program'),
+  author('Robert M. Freund and Robin Roundy and Michael J Todd'),
+nil)
+
+entry!('kirkpatrick2012significance',
+   author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
+   title('An empirical investigation of statistical significance in {NLP}'),
+   emnlp(2012),
+   pages(995,1005),
 nil)
