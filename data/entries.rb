@@ -12,7 +12,9 @@ entry!('wang2016games',
   author('Sida I. Wang and Percy Liang and Chris Manning'),
   title('Learning Language Games through Interaction'),
   acl(2016),
-  url('http://shrdlurn.sidaw.xyz'),
+  project('http://shrdlurn.sidaw.xyz'),
+  url('http://arxiv.org/abs/1606.02447'),
+  codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
 nil)
 
 entry!('wang2015polynomial',
@@ -24,7 +26,7 @@ entry!('wang2015polynomial',
   code('https://github.com/sidaw/polymom'),
   code('https://github.com/sidaw/mompy'),
   posterurl('polymom-poster.pdf'),
-  nil)
+nil)
 
 entry!('frostig2014subconstant',
   author('Roy Frostig and Sida I. Wang'),
