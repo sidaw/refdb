@@ -14,7 +14,9 @@ entry!('wang2016games',
   acl(2016),
   project('http://shrdlurn.sidaw.xyz'),
   url('http://arxiv.org/abs/1606.02447'),
+  slidesurl('http://nlp.stanford.edu/~sidaw/acl16slides/'),
   codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
+  note('Outstanding paper'),
 nil)
 
 entry!('wang2015polynomial',
@@ -81,7 +83,7 @@ entry!('wang2013noising',
   author('Sida I. Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
   title('Feature Noising for Log-linear Structured Prediction'),
   emnlp(2013),
-  url('noising-emnlp2013.pdf'),
+  url('sidaw13feature.pdf'),
   slidesurl('wang2013noising-talk.pdf'),
 nil)
 
