@@ -8,6 +8,14 @@
 #   icml(2014)
 # And other metadata which goes into the HTML output, not the bib:
 #   project('...')
+entry!('wang2017naturalizing',
+  author('Sida I. Wang and Samuel Ginn and Percy Liang and Christopher D Manning'),
+  title('Naturalizing a Programming Language via Interactive Learning'),
+  acl(2017),
+  project('http://www.voxelurn.com'),
+  codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
+  url('https://arxiv.org/abs/1704.06956'),
+nil)
 
 entry!('xie2017noising',
   author('Ziang Xie and Sida I. Wang and Jiwei Li and Daniel Lévy and Aiming Nie and Dan Jurafsky and Andrew Y. Ng'),
