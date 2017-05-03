@@ -30,7 +30,7 @@ entry!('wang2016games',
   acl(2016),
   project('http://shrdlurn.sidaw.xyz'),
   url('http://arxiv.org/abs/1606.02447'),
-  slidesurl('http://nlp.stanford.edu/~sidaw/acl16slides/'),
+  slidesurl('http://www.sidaw.xyz/pubs/wang2016games-talk.pdf'),
   codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
   note('outstanding paper'),
 nil)
